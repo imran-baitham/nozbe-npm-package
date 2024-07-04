@@ -7,3 +7,6 @@
 *-lock.*
 *.lock
 *.log
+
+tsconfig.json
+tsup.config.ts
