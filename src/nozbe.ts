@@ -10,5 +10,5 @@ const nozbe: ClassNames = (...classes) => {
   return classes.filter((c) => typeof c === "string").join(" ");
 };
 
-export { nozbe }; // Named export
-export default nozbe; // Default export
+export { nozbe };
+export default nozbe;
