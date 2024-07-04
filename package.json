@@ -1,0 +1,28 @@
+{
+  "name": "nozbe",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "type": "./dist/index.d.ts",
+  "homepage": "http://bardui.com",
+  "repository": {
+    "url": "https://github.com/imran-baitham/nozbe-npm-package"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "classnames",
+    "classname",
+    "clsx",
+    "classes",
+    "tailwind-merge"
+  ],
+  "author": "imran-baitham",
+  "license": "ISC",
+  "description": "MIT",
+  "devDependencies": {
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3"
+  }
+}
