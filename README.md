@@ -65,4 +65,4 @@ nozbe(true, false, "", null, undefined, 0, NaN);
 
 Works in all Node.js environments and modern browsers supporting Array.isArray.
 
-MIT © [Luke Edwards](https://lukeed.com)
+MIT © [Imran Baitham](https://lukeed.com)
