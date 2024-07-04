@@ -1,9 +1,9 @@
 {
   "name": "nozbe",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
-  "type": "./dist/index.d.ts",
+  "types": "./dist/index.d.ts",
   "homepage": "http://bardui.com",
   "repository": {
     "url": "https://github.com/imran-baitham/nozbe-npm-package"
@@ -16,7 +16,8 @@
     "classname",
     "clsx",
     "classes",
-    "tailwind-merge"
+    "tailwind-merge",
+    "nozbe"
   ],
   "author": "imran-baitham",
   "license": "ISC",

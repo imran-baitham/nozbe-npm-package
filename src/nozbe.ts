@@ -2,10 +2,13 @@
  * Joins string parameters with a space, ignoring non-string values.
  */
 
-import { ClassNames } from "./type";
+export interface ClassNames {
+  (...classes: (string | undefined)[]): string;
+}
 
 const nozbe: ClassNames = (...classes) => {
   return classes.filter((c) => typeof c === "string").join(" ");
 };
 
-export default nozbe;
+export { nozbe }; // Named export
+export default nozbe; // Default export
